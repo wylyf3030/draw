@@ -1,26 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2021-03-24T02:46:32.396Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="HFIgsKc_J3okYfPNWQ7c" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-24T12:54:35.935Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="dCt2cNNYe7cU4rm2iIoE" version="14.4.8" type="github">
   <diagram id="rPlM7ovEb23RcvIC2kRd" name="Page-1">
     <mxGraphModel dx="3320" dy="3081" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-1" value="Server" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="580" y="220" width="160" height="210" as="geometry" />
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-81" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-830" y="-610" width="1910" height="680" as="geometry" />
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-2" value="- name: String&#xa;- code：String&#xa;- images：List&lt;String&gt;&#xa;- type：ServerType&#xa;- portalUrl：String&#xa;- abilities：List&lt;Attribute&gt;&#xa;- serverUrl: String&#xa;- detail：String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-1">
-          <mxGeometry y="26" width="160" height="124" as="geometry" />
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-1" value="Server" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="250" width="240" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-2" value="- name: String //名称&#xa;- code：String //编码&#xa;- images：List&lt;String&gt; // 图片信息&#xa;- type：ServerType // 服务类型&#xa;- portalUrl：String  // 主页URL&#xa;- abilities：List&lt;Attribute&gt; // 能力属性&#xa;- serverUrl: String  //回调url&#xa;- status: ServerStatus //服务状态&#xa;- detail：String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-1">
+          <mxGeometry y="26" width="240" height="144" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-1">
-          <mxGeometry y="150" width="160" height="8" as="geometry" />
+          <mxGeometry y="170" width="240" height="8" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-4" value="+ isApp(): Boolean&#xa;+ getType(): ServerType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-1">
-          <mxGeometry y="158" width="160" height="52" as="geometry" />
+          <mxGeometry y="178" width="240" height="52" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Object:ServerType&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;应用服务 = APP&lt;br&gt;虚拟服务 = VIRTUAL&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="240" width="160" height="90" as="geometry" />
+          <mxGeometry x="-190" y="130" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-6" value="Attribute" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="360" width="160" height="130" as="geometry" />
+          <mxGeometry x="-190" y="260" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-7" value="+ name: String&#xa;+ code：String&#xa;+ unit: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-6">
           <mxGeometry y="26" width="160" height="64" as="geometry" />
@@ -32,9 +35,9 @@
           <mxGeometry y="98" width="160" height="32" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-14" value="ServerItem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="840" y="120" width="160" height="150" as="geometry" />
+          <mxGeometry x="490" y="310" width="160" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-15" value="- servers: List&lt;Server&gt;&#xa;- Item: item&#xa;- template:Template" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-14">
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-15" value="- servers: List&lt;Server&gt;&#xa;- Item: item&#xa;- templateCode:String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-14">
           <mxGeometry y="26" width="160" height="64" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-14">
@@ -44,16 +47,16 @@
           <mxGeometry y="98" width="160" height="52" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-18" value="item" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="940" y="325" width="160" height="200" as="geometry" />
+          <mxGeometry x="435" y="550" width="270" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-19" value="- name: String&#xa;- id：long&#xa;- mainImage：String&#xa;- otherImages：List&lt;String&gt;&#xa;- skuItems: List&lt;SkuItem&gt;&#xa;- category: Category&#xa;- district: District&#xa;- detail：String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-18">
-          <mxGeometry y="26" width="160" height="124" as="geometry" />
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-19" value="- name: String&#xa;- id：long&#xa;- mainImage：String&#xa;- otherImages：List&lt;String&gt;&#xa;- skuItems: List&lt;SkuItem&gt;&#xa;- category: Category&#xa;- district: District&#xa;- shop：Shop&#xa;- stock：Stock 库存信息&#xa;- Shelf ：0 下架 1 上架&#xa;- status：0 正常 -2 冻结中 5 解冻审核中 -3 删除&#xa;- detail：String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-18">
+          <mxGeometry y="26" width="270" height="174" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-18">
-          <mxGeometry y="150" width="160" height="8" as="geometry" />
+          <mxGeometry y="200" width="270" height="8" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-21" value="+ get&#xa;+ set" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-18">
-          <mxGeometry y="158" width="160" height="42" as="geometry" />
+          <mxGeometry y="208" width="270" height="42" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-30" value="Template" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="480" y="-90" width="270" height="130" as="geometry" />
@@ -90,9 +93,6 @@
             <mxPoint x="420" y="-150" as="sourcePoint" />
             <mxPoint x="580" y="-150" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-47" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Object:EquityRuleType&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;累加 = 1&lt;br&gt;累加计算残值 = 2&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;覆盖 = 3&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;覆盖计算残值 = 4&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="80" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-48" value="Module" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="-90" width="170" height="98" as="geometry" />
@@ -144,37 +144,217 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-66" value="LimitModule" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-270" y="-290" width="250" height="148" as="geometry" />
+          <mxGeometry x="-260" y="-290" width="340" height="148" as="geometry" />
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-67" value="- limitStart: Date&#xa;- limitEnd：Date&#xa;- limitCycle：int&#xa;- limitCycleUnit：timeUnit&#xa;- limitObject：LimitObject&#xa;- limitNumber：int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-66">
-          <mxGeometry y="26" width="250" height="114" as="geometry" />
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-67" value="- limitStart: Date&#xa;- limitEnd：Date&#xa;- limitCycle：Integer&#xa;- cycleUnit：年、月、日、时、分、秒&#xa;- limitObject：LimitObject&#xa;- downGrade：Map&lt;String,Boolean&gt;//是否限制降级&#xa;- limitNumber：int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-66">
+          <mxGeometry y="26" width="340" height="114" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-68" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-66">
-          <mxGeometry y="140" width="250" height="8" as="geometry" />
+          <mxGeometry y="140" width="340" height="8" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-70" value="LimitObject" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-570" y="-290" width="270" height="148" as="geometry" />
+          <mxGeometry x="-750" y="-290" width="310" height="168" as="geometry" />
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-71" value="- target: TargetType // 目标用户&#xa;- labels：List&lt;String&gt; //用户标签&#xa;- special：Boolean //是否是特定用户&#xa;- prepay：Boolean // 是否是预付款用户&#xa;- collector：Boolean // 是否是收藏的用户&#xa;- memberShip：List&lt;String&gt; // 会员身份&#xa;- newComer：Boolean //是否是新客" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-70">
-          <mxGeometry y="26" width="270" height="114" as="geometry" />
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-71" value="- target: TargetType // 目标用户&#xa;- labels：List&lt;String&gt; //用户标签&#xa;- special：Boolean //是否是特定用户&#xa;- prepay：Boolean // 是否是预付款用户&#xa;- collector：Boolean // 是否是收藏的用户&#xa;- memberShip：List&lt;String&gt; // 会员身份&#xa;- newComer：Boolean //是否是新客&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-70">
+          <mxGeometry y="26" width="310" height="134" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-72" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-70">
-          <mxGeometry y="140" width="270" height="8" as="geometry" />
+          <mxGeometry y="160" width="310" height="8" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-73" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Object:TargetType&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;全网用户 = 0&lt;br&gt;全网商家 = 1&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;全网监管单位 = 2&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;全网采购单位 = 3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-820" y="-290" width="190" height="120" as="geometry" />
+          <mxGeometry x="-560" y="-517.5" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-74" value="EquityModule" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="40" width="250" height="98" as="geometry" />
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-78" value="&lt;h1&gt;场景&lt;/h1&gt;&lt;p&gt;A：按次数+周期&amp;nbsp;&lt;/p&gt;&lt;p&gt;B：按规格+周期&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="-687" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-75" value="- joinGroup: boolean&#xa;- groupPrice：bigDecimal&#xa;- groupDiscountRate: bigDecimal&#xa;- leftPriceRule: Map&lt;String,LeftPriceRule&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-74">
-          <mxGeometry y="26" width="250" height="64" as="geometry" />
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-79" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="kyf-_Rxp0vwJtcWC14Ht-67">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-440" y="-207" as="sourcePoint" />
+            <mxPoint x="-280" y="-207.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-76" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-74">
-          <mxGeometry y="90" width="250" height="8" as="geometry" />
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-80" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kyf-_Rxp0vwJtcWC14Ht-73">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-500" y="-350" as="sourcePoint" />
+            <mxPoint x="-467" y="-290" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-77" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Object:TimeUnit&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;秒 = SECOND&lt;br&gt;分 = MINUTE&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;时 = HOUR&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;天 = DAY&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;周 = WEEK&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;月 = MONTH&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;年 = YEAR&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-530" y="-480" width="190" height="140" as="geometry" />
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-82" value="模板管理域" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-827" y="-610" width="87" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-83" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-30" y="330" as="sourcePoint" />
+            <mxPoint x="130" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-84" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="kyf-_Rxp0vwJtcWC14Ht-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-30" y="180" as="sourcePoint" />
+            <mxPoint x="130" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-85" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.004;exitY=0.621;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kyf-_Rxp0vwJtcWC14Ht-2" target="kyf-_Rxp0vwJtcWC14Ht-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="380" y="354" as="sourcePoint" />
+            <mxPoint x="480" y="354.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-86" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kyf-_Rxp0vwJtcWC14Ht-18" target="kyf-_Rxp0vwJtcWC14Ht-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="550" y="520" as="sourcePoint" />
+            <mxPoint x="710" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-87" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ServerFacade&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(): List&amp;lt;Server&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="600" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-88" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ServerManagerService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ createServer(Server): void&lt;br&gt;+ submitReview(Server): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ review(Server)： void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ updateServer(Server): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ delete(id)： void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(ServerStatus)：List&amp;lt;Server&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="580" width="210" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-89" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Object:ServerStatus&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;已删除 = 0&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;待提审 = 1&lt;br&gt;待审核 = 2&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;审核通过 = 3&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;审核失败 = 4&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="424" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-90" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kyf-_Rxp0vwJtcWC14Ht-89" target="kyf-_Rxp0vwJtcWC14Ht-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-10" y="480" as="sourcePoint" />
+            <mxPoint x="140" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-91" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ServerServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ createServer(Server): void&lt;br&gt;+ submitReview(Server): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ review(Server)： void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ updateServer(Server): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ delete(id)： void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(ServerStatus)：List&amp;lt;Server&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(): List&amp;lt;Server&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- createOpRecord(Server,Operation)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="770" width="470" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-92" value="&lt;i style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ServerItemManagerService&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ createItem(List&amp;lt;Server&amp;gt;,Item,templateCode): void&lt;br&gt;+ submitReview(ServerItemId): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ review(ServerItemId)： void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ updateServer(ServerItem): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ offShelf(List&amp;lt;ServerItemId&amp;gt;)： void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ frozen(List&amp;lt;ServerItemId&amp;gt;): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ unFrozen(List&amp;lt;ServerItemId&amp;gt;): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(status,Shelf)：List&amp;lt;ServerItem&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="840" width="470" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-93" value="&lt;i style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ServerItemFacade&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(Category,Shop,ItemName,ItemId,District....)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="840" width="470" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-95" value="Order" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="130" width="220" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-96" value="- orderNo: String&#xa;- itemId：Long&#xa;- itemName：String&#xa;- purchaser: Purchaser&#xa;- supplier：Supplier&#xa;- receiver：Receiver&#xa;- originalPrice: BigDecimal 原价&#xa;- discountPrice：BigDecimal 折扣价&#xa;- status：待支付 支付成功 支付失败&#xa;- failReason：String&#xa;- orderTime：date 下单时间&#xa;- timeout：int 单位秒&#xa;- payTradeNo：String 支付唯一码&#xa;- thirdPatNo：第三方流水号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-95">
+          <mxGeometry y="26" width="220" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-97" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-95">
+          <mxGeometry y="250" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-98" value="+ isApp(): Boolean&#xa;+ getType(): ServerType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-95">
+          <mxGeometry y="258" width="220" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-103" value="OrderSnapshot" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="705" y="170" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-104" value="- serverItem：ServerItem&#xa;- orderNo：String&#xa;- purchaser：Purchaser&#xa;- supplier：supplier&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-103">
+          <mxGeometry y="26" width="160" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-105" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-103">
+          <mxGeometry y="120" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-106" value="+" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-103">
+          <mxGeometry y="128" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-107" value="OrderDetail" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="470" width="220" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-108" value="- orderNo: String&#xa;- itemId：Long&#xa;- itemName：String&#xa;- serverCode：String 服务编码&#xa;- serverName：String 服务名称&#xa;- originalPrice：Bigdecimal 原价&#xa;- discountPrice：Bigdecimal 优惠价&#xa;- discountMoney: Bigdecimal 优惠金额&#xa;- discountDesc：优惠项描述" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-107">
+          <mxGeometry y="26" width="220" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-109" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-107">
+          <mxGeometry y="210" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-110" value="+" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-107">
+          <mxGeometry y="218" width="220" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-111" value="DiscountRecord" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="470" width="320" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-112" value="- orderNo: String&#xa;- targetType：订单、商品、服务&#xa;- target：订单编号、商品ID，服务code&#xa;- method：优惠方式，拼团、满减、优惠券、残值抵扣&#xa;- money：Bigdecimal 优惠多少钱" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-111">
+          <mxGeometry y="26" width="320" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-113" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-111">
+          <mxGeometry y="130" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-114" value="+" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-111">
+          <mxGeometry y="138" width="320" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-115" value="CouponRecord" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="690" width="320" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-116" value="- orderNo: String&#xa;- CouponNo：String 优惠券编号&#xa;- price：Bigdecimal 票面价值&#xa;- usePrice：Bigdecimal 抵扣价值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-115">
+          <mxGeometry y="26" width="320" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-117" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-115">
+          <mxGeometry y="110" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-118" value="+" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-115">
+          <mxGeometry y="118" width="320" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-119" value="&lt;i style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PurchaserOrderFacade&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(OrderStatus)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ createOrder(ServerItem): Order&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- MQOrderCallback()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="170" width="470" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-120" value="&lt;i style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SupplierOrderFacade&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(OrderStatus)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="420" width="470" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-121" value="UserRight" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="160" width="220" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-122" value="- serverCode: 服务编码&#xa;- orderNo：订单编号&#xa;- rightCode：权益编码 ，等同于服务能力定义的key&#xa;- all：是否是无限次、无限类目&#xa;- specification：规格 &#xa;- unit： 单位&#xa;- unlimitedPeriod：是否是无限时间&#xa;- startTime：有效期其实时间&#xa;- endTime：截止时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-121">
+          <mxGeometry y="26" width="220" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-123" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-121">
+          <mxGeometry y="250" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-124" value="+ isApp(): Boolean&#xa;+ getType(): ServerType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-121">
+          <mxGeometry y="258" width="220" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-125" value="RightRecord" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="500" width="220" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-126" value="- serverCode：&#xa;- orderNo:&#xa;- rightCode:&#xa;- specification:&#xa;- type：新增，核销，失效" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-125">
+          <mxGeometry y="26" width="220" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-127" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-125">
+          <mxGeometry y="130" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-128" value="+ isApp(): Boolean&#xa;+ getType(): ServerType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-125">
+          <mxGeometry y="138" width="220" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-129" value="&lt;i style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PurchaserOrderFacade&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ writeOffRight(ServerCode,rightCode,specification): Boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getSpecification(ServerCode,rightCode):UserRight&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- noticeSupplier(List&amp;lt;UserRight&amp;gt;): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2430" y="160" width="380" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-130" value="&lt;i style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PriceCalculationService&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ calculationPrice(itemID，skuId，Operator)：ItemPayMoney // Operator 包含身份&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;操作行为：升级、续费、购买&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="-50" width="470" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-131" value="ItemPayMoney" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="-50" width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-132" value="- orderNo: String&#xa;- itemId：Long&#xa;- itemName：String&#xa;- detail: List&lt;OrderDetail&gt;&#xa;- record: List&lt;DiscountRecord&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-131">
+          <mxGeometry y="26" width="220" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-133" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-131">
+          <mxGeometry y="120" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-134" value="+" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-131">
+          <mxGeometry y="128" width="220" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-141" value="&lt;i style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;LimitService&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ checkLimit(itemID，skuId，Operator)：LimitResult&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="-237" width="470" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-142" value="LimitResult" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="-262" width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-143" value="- canBuy: Boolean&#xa;- limitNum：Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-142">
+          <mxGeometry y="26" width="220" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-144" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-142">
+          <mxGeometry y="120" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-145" value="+" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-142">
+          <mxGeometry y="128" width="220" height="52" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
