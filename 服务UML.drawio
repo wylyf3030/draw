@@ -1,41 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2021-03-24T12:54:35.935Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="dCt2cNNYe7cU4rm2iIoE" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-26T07:39:29.508Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="SKl4ykovf4hozGmhkMuZ" version="14.4.8" type="github">
   <diagram id="rPlM7ovEb23RcvIC2kRd" name="Page-1">
     <mxGraphModel dx="3320" dy="3081" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-158" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="110" width="720" height="790" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-147" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="110" width="1240" height="790" as="geometry" />
+        </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-81" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-830" y="-610" width="1910" height="680" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-1" value="Server" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="250" width="240" height="230" as="geometry" />
+          <mxGeometry x="-440" y="411" width="310" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-2" value="- name: String //名称&#xa;- code：String //编码&#xa;- images：List&lt;String&gt; // 图片信息&#xa;- type：ServerType // 服务类型&#xa;- portalUrl：String  // 主页URL&#xa;- abilities：List&lt;Attribute&gt; // 能力属性&#xa;- serverUrl: String  //回调url&#xa;- status: ServerStatus //服务状态&#xa;- detail：String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-1">
-          <mxGeometry y="26" width="240" height="144" as="geometry" />
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-2" value="- name: String //名称&#xa;- code：String //编码&#xa;- icon：String //图标&#xa;- type：ServerType // 服务类型&#xa;- portalUrl：String  // 主页URL&#xa;- specifications：List&lt;Specification&gt; // 服务规格集合&#xa;- upLimitRule：UpLimitRule //升级规则&#xa;- serverUrl: String  //回调url&#xa;- status: ServerStatus //服务状态&#xa;- detail：String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-1">
+          <mxGeometry y="26" width="310" height="144" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-1">
-          <mxGeometry y="170" width="240" height="8" as="geometry" />
+          <mxGeometry y="170" width="310" height="8" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-4" value="+ isApp(): Boolean&#xa;+ getType(): ServerType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-1">
-          <mxGeometry y="178" width="240" height="52" as="geometry" />
+          <mxGeometry y="178" width="310" height="52" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Object:ServerType&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;应用服务 = APP&lt;br&gt;虚拟服务 = VIRTUAL&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="130" width="160" height="90" as="geometry" />
+          <mxGeometry x="-247" y="701" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-6" value="Attribute" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="260" width="160" height="130" as="geometry" />
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-6" value="Specification" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="451" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-7" value="+ name: String&#xa;+ code：String&#xa;+ unit: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-6">
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-7" value="+ name: String&#xa;+ code：String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-6">
           <mxGeometry y="26" width="160" height="64" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-6">
           <mxGeometry y="90" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-9" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-6">
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-9" value="+get" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-6">
           <mxGeometry y="98" width="160" height="32" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-14" value="ServerItem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="310" width="160" height="150" as="geometry" />
+          <mxGeometry x="612" y="380" width="160" height="150" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-15" value="- servers: List&lt;Server&gt;&#xa;- Item: item&#xa;- templateCode:String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-14">
           <mxGeometry y="26" width="160" height="64" as="geometry" />
@@ -47,7 +53,7 @@
           <mxGeometry y="98" width="160" height="52" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-18" value="item" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="435" y="550" width="270" height="250" as="geometry" />
+          <mxGeometry x="557" y="590" width="270" height="250" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-19" value="- name: String&#xa;- id：long&#xa;- mainImage：String&#xa;- otherImages：List&lt;String&gt;&#xa;- skuItems: List&lt;SkuItem&gt;&#xa;- category: Category&#xa;- district: District&#xa;- shop：Shop&#xa;- stock：Stock 库存信息&#xa;- Shelf ：0 下架 1 上架&#xa;- status：0 正常 -2 冻结中 5 解冻审核中 -3 删除&#xa;- detail：String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-18">
           <mxGeometry y="26" width="270" height="174" as="geometry" />
@@ -59,9 +65,9 @@
           <mxGeometry y="208" width="270" height="42" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-30" value="Template" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="-90" width="270" height="130" as="geometry" />
+          <mxGeometry x="390" y="-350" width="270" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-31" value="- name: String&#xa;- code：String&#xa;- businessTag: String&#xa;- modules: Map&lt;String,Module&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-30">
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-31" value="- name: String&#xa;- code：String&#xa;- businessTag: String&#xa;- modules: List&lt;Module&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-30">
           <mxGeometry y="26" width="270" height="64" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-30">
@@ -71,16 +77,19 @@
           <mxGeometry y="98" width="270" height="32" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-34" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TemplateServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ createTemplate(Template): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ modifyTemplate(Template): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(businessTag): List&amp;lt;Template&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getTemplate(code): Template&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- createModule(List&amp;lt;Module&amp;gt;): void&lt;br&gt;- modifyModule(List&amp;lt;Module&amp;gt;): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="-370" width="290" height="160" as="geometry" />
+          <mxGeometry x="700" y="-557.5" width="290" height="160" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kyf-_Rxp0vwJtcWC14Ht-38" target="kyf-_Rxp0vwJtcWC14Ht-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kyf-_Rxp0vwJtcWC14Ht-38" target="kyf-_Rxp0vwJtcWC14Ht-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-38" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TemplateFacadeServer&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- templateService: TemplateService&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- redisClient: Jedis&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ getModule(templateCode,moduleKey): Module&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- cache(Template)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- getCache(code)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="-567.5" width="340" height="170" as="geometry" />
+          <mxGeometry x="390" y="-800" width="340" height="170" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-39" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;TemplateFacade&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ getModule(templateCode,moduleKey): Module&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="-533.75" width="300" height="102.5" as="geometry" />
+          <mxGeometry x="850" y="-766.25" width="300" height="102.5" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-41" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kyf-_Rxp0vwJtcWC14Ht-49" target="kyf-_Rxp0vwJtcWC14Ht-31">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -88,14 +97,8 @@
             <mxPoint x="480" y="-25.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-42" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kyf-_Rxp0vwJtcWC14Ht-34" target="kyf-_Rxp0vwJtcWC14Ht-30">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="420" y="-150" as="sourcePoint" />
-            <mxPoint x="580" y="-150" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-48" value="Module" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="-90" width="170" height="98" as="geometry" />
+          <mxGeometry x="80" y="-350" width="170" height="98" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-49" value="- name: String&#xa;- code：String&#xa;- version: Long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-48">
           <mxGeometry y="26" width="170" height="64" as="geometry" />
@@ -113,20 +116,7 @@
           <mxGeometry y="90" width="250" height="8" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-55" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;TemplateManagerFacade&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ buildTemplate(Template): String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ modifyTemplate(Template): boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(businessTag): List&amp;lt;Template&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getTemplate(code): Template&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="-560" width="250" height="155" as="geometry" />
-        </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-59" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="-360" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kyf-_Rxp0vwJtcWC14Ht-38" target="kyf-_Rxp0vwJtcWC14Ht-55">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="115" y="-360.1" as="sourcePoint" />
-            <mxPoint x="235" y="-360.0000000000001" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="250" y="-482" />
-              <mxPoint x="250" y="-482" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="-10" y="-792.5" width="250" height="155" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-62" value="LeftPriceRule" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-570" y="-100" width="250" height="78" as="geometry" />
@@ -137,23 +127,17 @@
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-64" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-62">
           <mxGeometry y="70" width="250" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-65" value="" style="endArrow=open;endFill=1;endSize=12;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="kyf-_Rxp0vwJtcWC14Ht-49">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-10" y="-48" as="sourcePoint" />
-            <mxPoint x="150" y="-50" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-66" value="LimitModule" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="-290" width="340" height="148" as="geometry" />
+          <mxGeometry x="-360" y="-358.5" width="340" height="148" as="geometry" />
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-67" value="- limitStart: Date&#xa;- limitEnd：Date&#xa;- limitCycle：Integer&#xa;- cycleUnit：年、月、日、时、分、秒&#xa;- limitObject：LimitObject&#xa;- downGrade：Map&lt;String,Boolean&gt;//是否限制降级&#xa;- limitNumber：int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-66">
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-67" value="&#xa;- limitCycle：Integer&#xa;- cycleUnit：年、月、日、时、分、秒&#xa;- limitObject：LimitObject&#xa;- downGrade：Map&lt;String,Boolean&gt;//是否限制降级&#xa;- limitNumber：int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-66">
           <mxGeometry y="26" width="340" height="114" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-68" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-66">
           <mxGeometry y="140" width="340" height="8" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-70" value="LimitObject" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-750" y="-290" width="310" height="168" as="geometry" />
+          <mxGeometry x="-750" y="-367.5" width="310" height="168" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-71" value="- target: TargetType // 目标用户&#xa;- labels：List&lt;String&gt; //用户标签&#xa;- special：Boolean //是否是特定用户&#xa;- prepay：Boolean // 是否是预付款用户&#xa;- collector：Boolean // 是否是收藏的用户&#xa;- memberShip：List&lt;String&gt; // 会员身份&#xa;- newComer：Boolean //是否是新客&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-70">
           <mxGeometry y="26" width="310" height="134" as="geometry" />
@@ -162,79 +146,58 @@
           <mxGeometry y="160" width="310" height="8" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-73" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Object:TargetType&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;全网用户 = 0&lt;br&gt;全网商家 = 1&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;全网监管单位 = 2&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;全网采购单位 = 3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-560" y="-517.5" width="190" height="120" as="geometry" />
+          <mxGeometry x="-612" y="-557.5" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-78" value="&lt;h1&gt;场景&lt;/h1&gt;&lt;p&gt;A：按次数+周期&amp;nbsp;&lt;/p&gt;&lt;p&gt;B：按规格+周期&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1080" y="-687" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-79" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="kyf-_Rxp0vwJtcWC14Ht-67">
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-79" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kyf-_Rxp0vwJtcWC14Ht-71" target="kyf-_Rxp0vwJtcWC14Ht-67">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-440" y="-207" as="sourcePoint" />
             <mxPoint x="-280" y="-207.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-80" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kyf-_Rxp0vwJtcWC14Ht-73">
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-80" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kyf-_Rxp0vwJtcWC14Ht-73" target="kyf-_Rxp0vwJtcWC14Ht-70">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-500" y="-350" as="sourcePoint" />
-            <mxPoint x="-467" y="-290" as="targetPoint" />
+            <mxPoint x="-467" y="-360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-82" value="模板管理域" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-827" y="-610" width="87" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-83" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;" edge="1" parent="1">
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-83" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kyf-_Rxp0vwJtcWC14Ht-7" target="kyf-_Rxp0vwJtcWC14Ht-2">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-30" y="330" as="sourcePoint" />
-            <mxPoint x="130" y="330" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-84" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="kyf-_Rxp0vwJtcWC14Ht-1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-30" y="180" as="sourcePoint" />
-            <mxPoint x="130" y="180" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="250" y="180" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-85" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.004;exitY=0.621;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kyf-_Rxp0vwJtcWC14Ht-2" target="kyf-_Rxp0vwJtcWC14Ht-15">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="380" y="354" as="sourcePoint" />
-            <mxPoint x="480" y="354.5" as="targetPoint" />
+            <mxPoint x="100" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-86" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kyf-_Rxp0vwJtcWC14Ht-18" target="kyf-_Rxp0vwJtcWC14Ht-17">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="550" y="520" as="sourcePoint" />
-            <mxPoint x="710" y="520" as="targetPoint" />
+            <mxPoint x="522" y="-260" as="sourcePoint" />
+            <mxPoint x="682" y="-260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-87" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ServerFacade&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(): List&amp;lt;Server&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="600" width="190" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-88" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ServerManagerService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ createServer(Server): void&lt;br&gt;+ submitReview(Server): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ review(Server)： void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ updateServer(Server): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ delete(id)： void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(ServerStatus)：List&amp;lt;Server&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-390" y="580" width="210" height="160" as="geometry" />
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-88" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;SupplierServerManagerService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ createServer(Server): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ updateServer(Server): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ delete(id)： void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(ServerStatus)：List&amp;lt;Server&amp;gt;&lt;/p&gt;&amp;nbsp;+ submitReview(Server): void" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="840" width="210" height="160" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-89" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Object:ServerStatus&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;已删除 = 0&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;待提审 = 1&lt;br&gt;待审核 = 2&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;审核通过 = 3&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;审核失败 = 4&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="424" width="180" height="120" as="geometry" />
+          <mxGeometry x="-435" y="701" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-90" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kyf-_Rxp0vwJtcWC14Ht-89" target="kyf-_Rxp0vwJtcWC14Ht-4">
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-90" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.161;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kyf-_Rxp0vwJtcWC14Ht-89" target="kyf-_Rxp0vwJtcWC14Ht-4">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-10" y="480" as="sourcePoint" />
-            <mxPoint x="140" y="470" as="targetPoint" />
+            <mxPoint x="-399" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-91" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ServerServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ createServer(Server): void&lt;br&gt;+ submitReview(Server): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ review(Server)： void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ updateServer(Server): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ delete(id)： void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(ServerStatus)：List&amp;lt;Server&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(): List&amp;lt;Server&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- createOpRecord(Server,Operation)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-390" y="770" width="470" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-92" value="&lt;i style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ServerItemManagerService&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ createItem(List&amp;lt;Server&amp;gt;,Item,templateCode): void&lt;br&gt;+ submitReview(ServerItemId): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ review(ServerItemId)： void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ updateServer(ServerItem): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ offShelf(List&amp;lt;ServerItemId&amp;gt;)： void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ frozen(List&amp;lt;ServerItemId&amp;gt;): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ unFrozen(List&amp;lt;ServerItemId&amp;gt;): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(status,Shelf)：List&amp;lt;ServerItem&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="840" width="470" height="200" as="geometry" />
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-92" value="&lt;i style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SupplierItemManagerService&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ createItem(List&amp;lt;Server&amp;gt;,Item): Long //itemId&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ bindTemplate(String)：void&lt;br class=&quot;Apple-interchange-newline&quot;&gt;+ updateServer(ServerItem): void&lt;br class=&quot;Apple-interchange-newline&quot;&gt;+ list(status,Shelf)：List&amp;lt;ServerItem&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ delete(List&amp;lt;ItemId&amp;gt;)：void&lt;br&gt;+ submitReview(List&amp;lt;ItemId&amp;gt;): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ putShelf(List&amp;lt;ItemId&amp;gt;)：void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ offShelf(List&amp;lt;ServerItemId&amp;gt;)： void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ applyUnFrozen(List&amp;lt;ServerItemId&amp;gt;): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="170" width="470" height="200" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-93" value="&lt;i style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ServerItemFacade&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(Category,Shop,ItemName,ItemId,District....)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="840" width="470" height="200" as="geometry" />
+          <mxGeometry x="890" y="1660" width="470" height="200" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-95" value="Order" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="970" y="130" width="220" height="310" as="geometry" />
+          <mxGeometry x="1120" y="950" width="220" height="310" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-96" value="- orderNo: String&#xa;- itemId：Long&#xa;- itemName：String&#xa;- purchaser: Purchaser&#xa;- supplier：Supplier&#xa;- receiver：Receiver&#xa;- originalPrice: BigDecimal 原价&#xa;- discountPrice：BigDecimal 折扣价&#xa;- status：待支付 支付成功 支付失败&#xa;- failReason：String&#xa;- orderTime：date 下单时间&#xa;- timeout：int 单位秒&#xa;- payTradeNo：String 支付唯一码&#xa;- thirdPatNo：第三方流水号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-95">
           <mxGeometry y="26" width="220" height="224" as="geometry" />
@@ -246,7 +209,7 @@
           <mxGeometry y="258" width="220" height="52" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-103" value="OrderSnapshot" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="705" y="170" width="160" height="180" as="geometry" />
+          <mxGeometry x="855" y="990" width="160" height="180" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-104" value="- serverItem：ServerItem&#xa;- orderNo：String&#xa;- purchaser：Purchaser&#xa;- supplier：supplier&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-103">
           <mxGeometry y="26" width="160" height="94" as="geometry" />
@@ -258,7 +221,7 @@
           <mxGeometry y="128" width="160" height="52" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-107" value="OrderDetail" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="970" y="470" width="220" height="270" as="geometry" />
+          <mxGeometry x="1120" y="1290" width="220" height="270" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-108" value="- orderNo: String&#xa;- itemId：Long&#xa;- itemName：String&#xa;- serverCode：String 服务编码&#xa;- serverName：String 服务名称&#xa;- originalPrice：Bigdecimal 原价&#xa;- discountPrice：Bigdecimal 优惠价&#xa;- discountMoney: Bigdecimal 优惠金额&#xa;- discountDesc：优惠项描述" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-107">
           <mxGeometry y="26" width="220" height="184" as="geometry" />
@@ -270,7 +233,7 @@
           <mxGeometry y="218" width="220" height="52" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-111" value="DiscountRecord" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="470" width="320" height="190" as="geometry" />
+          <mxGeometry x="1380" y="1290" width="320" height="190" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-112" value="- orderNo: String&#xa;- targetType：订单、商品、服务&#xa;- target：订单编号、商品ID，服务code&#xa;- method：优惠方式，拼团、满减、优惠券、残值抵扣&#xa;- money：Bigdecimal 优惠多少钱" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-111">
           <mxGeometry y="26" width="320" height="104" as="geometry" />
@@ -282,7 +245,7 @@
           <mxGeometry y="138" width="320" height="52" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-115" value="CouponRecord" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="690" width="320" height="170" as="geometry" />
+          <mxGeometry x="1380" y="1510" width="320" height="170" as="geometry" />
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-116" value="- orderNo: String&#xa;- CouponNo：String 优惠券编号&#xa;- price：Bigdecimal 票面价值&#xa;- usePrice：Bigdecimal 抵扣价值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-115">
           <mxGeometry y="26" width="320" height="84" as="geometry" />
@@ -355,6 +318,51 @@
         </mxCell>
         <mxCell id="kyf-_Rxp0vwJtcWC14Ht-145" value="+" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-142">
           <mxGeometry y="128" width="220" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-150" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.881;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kyf-_Rxp0vwJtcWC14Ht-5" target="kyf-_Rxp0vwJtcWC14Ht-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-158" y="570" as="sourcePoint" />
+            <mxPoint x="-158" y="531" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-151" value="UpLimitRule" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-453" y="138" width="370" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-152" value="+ specificationOrder: List&lt;List&lt;String&gt;&gt; //规格顺序，&#xa;主要作为升降级使用，例如：&#xa;A-&gt;B-&gt;D&#xa;A-&gt;C-&gt;D&#xa;表示升级顺序，但B 跟C不存在升降级关系，&#xa;买了B不可以买C" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-151">
+          <mxGeometry y="26" width="370" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-153" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-151">
+          <mxGeometry y="120" width="370" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-154" value="+ canUp(fromCode,toCode) :  Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-151">
+          <mxGeometry y="128" width="370" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-155" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.454;exitY=0.969;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kyf-_Rxp0vwJtcWC14Ht-154" target="kyf-_Rxp0vwJtcWC14Ht-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-530" y="320" as="sourcePoint" />
+            <mxPoint x="-370" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-156" value="&lt;h1&gt;服务域&lt;/h1&gt;&lt;div&gt;服务定义&lt;/div&gt;&lt;p&gt;1.定义服务可提供的能力规格.&lt;/p&gt;&lt;p&gt;2.定义服务规格的升级关系.&lt;/p&gt;&lt;p&gt;3.服务审核通过后，已有的规格不可删除&lt;/p&gt;&lt;p&gt;4.服务审核通过后，修改只能产生副本，修改审核通过后，再覆盖已生效的服务信息&lt;/p&gt;&lt;p&gt;能力域&lt;/p&gt;&lt;p&gt;1.服务商：新增、修改、删除、查询、提审&lt;/p&gt;&lt;p&gt;2.平台运营：审核，查询&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="110" width="330" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-157" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;OperatorServerManagerService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ list(ServerStatus,Supplier)：List&amp;lt;Server&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&amp;nbsp;+ review(Server): void" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-475" y="840" width="255" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-159" value="&lt;h1&gt;服务商品域&lt;/h1&gt;&lt;p&gt;规则定义&lt;/p&gt;&lt;p&gt;1. 服务商品的生命周期由商品中心管理&lt;/p&gt;&lt;p&gt;2. 此处只维护商品与服务的关系&lt;/p&gt;&lt;p&gt;3. 此处维护交易配置模板与商品的关系&lt;/p&gt;&lt;p&gt;4. 单服务商品可以有多SKU，组合服务商品只能有一个SKU&lt;/p&gt;&lt;p&gt;能力域&lt;/p&gt;&lt;p&gt;1. 服务商：创建、修改、删除、提审、上架、下架、申请解冻，查询&lt;/p&gt;&lt;p&gt;2. 平台运营：审核、冻结、解冻，查询&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="110" width="410" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-160" value="&lt;i style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;OperatorItemManagerService&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ review(ServerItemId)： void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ frozen(List&amp;lt;ServerItemId&amp;gt;): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ unFrozen(List&amp;lt;ServerItemId&amp;gt;): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ list(status,Shelf)：List&amp;lt;ServerItem&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="405" width="470" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-162" value="TimeLimit" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="-590" width="310" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-163" value="- limitStart: Date  //开始时间&#xa;- limitEnd：Date  // 截止时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-162">
+          <mxGeometry y="26" width="310" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="kyf-_Rxp0vwJtcWC14Ht-164" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kyf-_Rxp0vwJtcWC14Ht-162">
+          <mxGeometry y="160" width="310" height="8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
