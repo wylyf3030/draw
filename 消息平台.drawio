@@ -1,1 +1,208 @@
-<mxfile host="app.diagrams.net" modified="2021-03-31T06:02:01.551Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" version="14.4.8" etag="iB4asCkJgtIsPk-IioDV" type="github"><diagram id="OKeaNCjVdxgjnTsQJaHc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-01T01:31:12.501Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Af8H_tdnQc5jtlnI6_Rj" version="14.4.8" type="github">
+  <diagram id="OKeaNCjVdxgjnTsQJaHc" name="Page-1">
+    <mxGraphModel dx="3320" dy="3130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1ToK9-u_QO78GYbjEgOj-1" target="1ToK9-u_QO78GYbjEgOj-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-1" value="RequestMessage" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="645" width="340" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-2" value="- reqMsg：MessageBody&#xa;- handler：RequestHandler&#xa;- deliveryBusiness：DeliveryBusiness&#xa;- template：Template&#xa;- channels：List&lt;Channel&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-1">
+          <mxGeometry y="26" width="340" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-1">
+          <mxGeometry y="110" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-4" value="+ bind(MessageBody,RequestHandler)：RequestMessage&#xa;+ doCheck(): void&#xa;+ doCrop()：void&#xa;+ limit()：Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-1">
+          <mxGeometry y="118" width="340" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-5" value="MessageBody" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="640" width="160" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-6" value="+ header: RequestHeader&#xa;+ body：Map&lt;String,Object&gt;&#xa;+ extendData：String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-5">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-5">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-8" value="+" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-5">
+          <mxGeometry y="88" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-9" value="RequestBody" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="625" width="160" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-10" value="+ taskId: String&#xa;+ bizCode:String&#xa;+ from：String&#xa;+ toList：List&lt;String&gt;&#xa;+ toOperatorIds: List&lt;Long&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-9">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-9">
+          <mxGeometry y="110" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-12" value="+" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-9">
+          <mxGeometry y="118" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-13" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1ToK9-u_QO78GYbjEgOj-10" target="1ToK9-u_QO78GYbjEgOj-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-310" y="725" as="sourcePoint" />
+            <mxPoint x="-150" y="725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-14" value="DeliveryBusiness" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-176" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-15" value="- bizCode：String&#xa;- appCode：String&#xa;- templateId：Long&#xa;- channelIds：List&lt;Long&gt;&#xa;- limitRate：Integer&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-14">
+          <mxGeometry y="26" width="260" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-14">
+          <mxGeometry y="110" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-17" value="+ allow(String reqApp)：boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-14">
+          <mxGeometry y="118" width="260" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-18" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;NotifyListener&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ notifyTemplate(Long templateId)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ notifyDeliveryBusiness(String bizCode)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ notifyChannel(Long channelId)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ notifyPriority(Long id)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-576" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-21" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;AbstractNotifyListener&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ config: ConfigCache&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ notifyTemplate(Long templateId)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ notifyDeliveryBusiness(String bizCode)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ notifyChannel(Long channelId)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ notifyPriority(Long id)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ subscribe()：void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# doSubscribe()：void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;# doNotifyTemplate(Long templateId)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;# doNotifyDeliveryBusiness(String bizCode)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;# doNotifyChannel(Long channelId)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;# doNotifyPriority(Long id)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-386" width="300" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-22" value="ConfigCache" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-390" width="260" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-23" value="- deliveryMap：Map&lt;String,DeliveryBusiness&gt;&#xa;- templateMap：Map&lt;Long,Template&gt;&#xa;- channelMap：Map&lt;Long,Channel&gt;&#xa;- &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-22">
+          <mxGeometry y="26" width="260" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-22">
+          <mxGeometry y="90" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-25" value="+ put&#xa;+ get" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-22">
+          <mxGeometry y="98" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-26" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;RedisNotifyListener&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;# doSubscribe()：void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;# doNotifyTemplate(Long templateId)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;# doNotifyDeliveryBusiness(String bizCode)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;# doNotifyChannel(Long channelId)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;# doNotifyPriority(Long id)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-146" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-27" value="config-core" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-540" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-28" value="config" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="-540" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-29" value="Channel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="-410" width="240" height="188" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-30" value="- channelId：Long&#xa;- channelCode：String&#xa;- type：渠道类型：钉钉、短信等&#xa;- instanceCode：商家APP、政采云APP&#xa;- priority：Long&#xa;- topicPrefix：// MQ 前缀&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-29">
+          <mxGeometry y="26" width="240" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-29">
+          <mxGeometry y="130" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-32" value="+ " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-29">
+          <mxGeometry y="138" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-39" value="Template" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="-164" width="290" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-40" value="- templateId：Long&#xa;- keys：List&lt;String&gt;&#xa;- ruleMap：Map&lt;Long,ChannelTemplateRule&gt;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-39">
+          <mxGeometry y="26" width="290" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-39">
+          <mxGeometry y="90" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-42" value="+ crop()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-39">
+          <mxGeometry y="98" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-43" value="ChannelTemplateRule" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="-164" width="310" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-44" value="- channelId：Long&#xa;- KeyMapping：Map&lt;String,String&gt;&#xa;- defaultMapping：Map&lt;String,String&gt;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-43">
+          <mxGeometry y="26" width="310" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-43">
+          <mxGeometry y="90" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-46" value="+ transfer(Map&lt;String,Object&gt;)：Map&lt;String,Object&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-43">
+          <mxGeometry y="98" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-48" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1ToK9-u_QO78GYbjEgOj-44" target="1ToK9-u_QO78GYbjEgOj-40">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-360" y="-90.5" as="sourcePoint" />
+            <mxPoint x="-240" y="-90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-49" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1ToK9-u_QO78GYbjEgOj-30" target="1ToK9-u_QO78GYbjEgOj-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="70" y="-316.5" as="sourcePoint" />
+            <mxPoint x="200" y="-316.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-50" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="1ToK9-u_QO78GYbjEgOj-14" target="1ToK9-u_QO78GYbjEgOj-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="140" y="-180" as="sourcePoint" />
+            <mxPoint x="360" y="-180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-51" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1ToK9-u_QO78GYbjEgOj-40" target="1ToK9-u_QO78GYbjEgOj-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="60" y="-130" as="sourcePoint" />
+            <mxPoint x="280" y="-130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-52" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ConfigServer&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- configCache：ConfigCache&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getConfig()：ConfigCache&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="10" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-53" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;MessageHandler&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="140" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-54" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Request&lt;/b&gt;&lt;b&gt;Handler&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- ConfigServer&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ checkParam(MessageBody)：void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ crop(MessageBody)：void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="430" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-55" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;DispatcherHandler&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- ConfigServer&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setToList(MessageBody): List&amp;lt;ChannelMsg&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ templateAnalyze()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ countRequest()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="416" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-56" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;AbstractMessageHandler&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- configServer：ConfigServer&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ getDeliveryBusiness(String bizCode)：DeliveryBusiness&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ getChannel(Long channelId)：Channel&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ getTemplate(Long templateId)：Template&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="260" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-57" value="DeliveryMessage" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="671" width="400" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-58" value="- reqMsg：MessageBody&#xa;- deliveryServer：DeliveryServer&#xa;- Channels：List&lt;Channel&gt;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-57">
+          <mxGeometry y="26" width="400" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-59" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-57">
+          <mxGeometry y="90" width="400" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-60" value="+ build(MessageBody,DeliveryServer,List&lt;Channel&gt;)：DeliveryMessage&#xa;+ delivery(MessageBody)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-57">
+          <mxGeometry y="98" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-62" value="DispactherMessage" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="402" width="400" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-63" value="- reqMsg：MessageBody&#xa;- dispatcherHandler：DispatchHandler&#xa;- ChannelService&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-62">
+          <mxGeometry y="26" width="400" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-64" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-62">
+          <mxGeometry y="90" width="400" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-65" value="+ build()：DispatcherMessage&#xa;+ send()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-62">
+          <mxGeometry y="98" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-66" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ChannelService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ sendMsg(List&amp;lt;ChannelMsg&amp;gt;)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# setPoint()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# shotUrl()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# doSend()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="60" width="610" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-67" value="ChannelMsg" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="210" width="400" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-68" value="- from&#xa;- to&#xa;- instanceCode&#xa;- msgId:&#xa;- bizCode:&#xa;- taskId:&#xa;- respId:&#xa;- MsgBody&#xa;- extendData&#xa;- urlKey： String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-67">
+          <mxGeometry y="26" width="400" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-69" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-67">
+          <mxGeometry y="170" width="400" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1ToK9-u_QO78GYbjEgOj-70" value="+ build()：DispatcherMessage&#xa;+ send()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ToK9-u_QO78GYbjEgOj-67">
+          <mxGeometry y="178" width="400" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
