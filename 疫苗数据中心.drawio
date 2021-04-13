@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-04-12T11:02:18.278Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="L8A-NwwFn46Q5vqMqyEA" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-13T07:27:58.560Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="Ou330WqMdOyyCG__llrK" version="14.4.8" type="github">
   <diagram id="ZT_yV8qCvgmUuOjG69n4" name="Page-1">
     <mxGraphModel dx="1678" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gTwHU6XBFoAe-j7LGJRu-66" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gTwHU6XBFoAe-j7LGJRu-66" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="1010" y="390" width="390" height="710" as="geometry" />
         </mxCell>
         <mxCell id="gTwHU6XBFoAe-j7LGJRu-25" value="" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
@@ -196,13 +196,24 @@
             <mxPoint x="1790" y="1010" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gTwHU6XBFoAe-j7LGJRu-72" value="&lt;p&gt;此模块也可以采用&lt;br&gt;数据中台技术方案&lt;br&gt;进行替换，具体以&lt;br&gt;实际情况为主&lt;/p&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};textDirection=ltr;horizontal=1;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="1460" y="320" width="130" height="110" as="geometry" />
+        <mxCell id="gTwHU6XBFoAe-j7LGJRu-72" value="&lt;p&gt;此模块可以采用数据中台技术、也可以采用java服务方案，具体以实际情况为主；&lt;/p&gt;&lt;p&gt;该模块对于业务应用透明，后面可以根据实际情况切换技术方案&lt;/p&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};textDirection=ltr;horizontal=1;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="320" width="470" height="110" as="geometry" />
         </mxCell>
         <mxCell id="gTwHU6XBFoAe-j7LGJRu-73" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;" edge="1" target="gTwHU6XBFoAe-j7LGJRu-72" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1400" y="495" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gTwHU6XBFoAe-j7LGJRu-76" value="该模块主要是收集、清洗、数据标准化处理，数据封装，然后将处理后的数据丢入数据公路" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="570" y="130" width="390" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gTwHU6XBFoAe-j7LGJRu-77" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontFamily=Verdana;" edge="1" target="gTwHU6XBFoAe-j7LGJRu-76" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gTwHU6XBFoAe-j7LGJRu-78" value="&lt;h1&gt;方案特点&lt;/h1&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;1、各模块各司其职，功能边界清晰&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;2、业务模块与数据分析处理模块隔离，数据建模耦合度低&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;3、模块功能内聚，数据处理分析模块替换大数据BI平台能力，相对简单&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;4、目前业务数据价值密度高，对架构模型、性能、硬件开销较低。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;h1&gt;方案缺点&lt;/h1&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;1、业务梳理、改造等工作量&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;2、方案层面不能明显解决现在数据交换带来的问题，只是职责边界清晰，易扩展，更聚焦等。具体的问题还是需要特定的方案来解决&lt;span&gt;。&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;3、中间件、硬件成本会略微升高。&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=20;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Verdana;align=left;spacingLeft=0;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="840" width="470" height="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
