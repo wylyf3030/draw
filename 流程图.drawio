@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T08:12:20.639Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="wbt4bJJrOs6DaH611P9O" version="14.7.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T08:26:30.201Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="pPkbvr-_xK36xQ_VaKVE" version="14.7.8" type="github">
   <diagram id="c4w317zECzJuG4s0Is7F" name="Page-1">
-    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,7 +79,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5jAdGCk7PEBWjeVyFy0n-12" value="302 location http://sso.example.com/sso/authorize?appKey=ak&lt;br&gt;&amp;amp;redirect_uri=http://app1.example.com/grant&amp;amp;state=1234" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;entryX=1;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" source="5jAdGCk7PEBWjeVyFy0n-10" parent="1" target="5jAdGCk7PEBWjeVyFy0n-8">
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-12" value="302 location http://sso.example.com/sso/authorize?appKey=ak&amp;amp;state=1234&lt;br&gt;&amp;amp;redirect_uri=http://app1.example.com/grant" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;entryX=1;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" source="5jAdGCk7PEBWjeVyFy0n-10" parent="1" target="5jAdGCk7PEBWjeVyFy0n-8">
           <mxGeometry x="0.7419" relative="1" as="geometry">
             <mxPoint x="1026" y="386" as="targetPoint" />
             <mxPoint as="offset" />
@@ -88,7 +88,7 @@
         <mxCell id="5jAdGCk7PEBWjeVyFy0n-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="900" y="440" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5jAdGCk7PEBWjeVyFy0n-15" value="get http://sso.example.com/sso/authorize?appKey=APP_KEY&lt;br&gt;&amp;amp;redirect_uri=http://app1.example.com/grant&amp;amp;state=1234" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;align=left;" edge="1" target="5jAdGCk7PEBWjeVyFy0n-14" parent="1">
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-15" value="get http://sso.example.com/sso/authorize?appKey=APP_KEY&amp;amp;state=1234&lt;br&gt;&amp;amp;redirect_uri=http://app1.example.com/grant" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;align=left;" edge="1" target="5jAdGCk7PEBWjeVyFy0n-14" parent="1">
           <mxGeometry x="-0.5758" relative="1" as="geometry">
             <mxPoint x="570" y="440" as="sourcePoint" />
             <mxPoint as="offset" />
@@ -134,13 +134,13 @@
         <mxCell id="5jAdGCk7PEBWjeVyFy0n-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="980" y="590" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5jAdGCk7PEBWjeVyFy0n-29" value="GET http://sso.example.com/sso/check_ticket?appKey=ak&amp;amp;ticket=ST-123456&amp;amp;signature=hsalda" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;align=left;" edge="1" target="5jAdGCk7PEBWjeVyFy0n-28" parent="1" source="5jAdGCk7PEBWjeVyFy0n-3">
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-29" value="GET http://sso.example.com/sso/getUserInfo?appKey=ak&amp;amp;ticket=ST-123456&amp;amp;signature=hsalda" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;align=left;" edge="1" target="5jAdGCk7PEBWjeVyFy0n-28" parent="1" source="5jAdGCk7PEBWjeVyFy0n-3">
           <mxGeometry x="0.6289" relative="1" as="geometry">
             <mxPoint x="970" y="820" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5jAdGCk7PEBWjeVyFy0n-30" value="return true" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;entryX=-0.2;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" source="5jAdGCk7PEBWjeVyFy0n-28" parent="1" target="5jAdGCk7PEBWjeVyFy0n-24">
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-30" value="return userInfo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;entryX=-0.2;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" source="5jAdGCk7PEBWjeVyFy0n-28" parent="1" target="5jAdGCk7PEBWjeVyFy0n-24">
           <mxGeometry x="-0.6268" y="-1" relative="1" as="geometry">
             <mxPoint x="970" y="877" as="targetPoint" />
             <mxPoint as="offset" />
@@ -179,13 +179,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5jAdGCk7PEBWjeVyFy0n-41" value="302 location http://sso.example.com/sso/&lt;span&gt;authorize?appKey=ak2&lt;/span&gt;&lt;br&gt;&lt;div&gt;&amp;amp;redirect_uri=http://app2.example.com/grant&amp;amp;state=7890&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;align=left;" edge="1" source="5jAdGCk7PEBWjeVyFy0n-39" parent="1">
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-41" value="302 location http://sso.example.com/sso/&lt;span&gt;authorize?appKey=ak2&lt;/span&gt;&amp;amp;state=7890&lt;br&gt;&lt;div&gt;&amp;amp;redirect_uri=http://app2.example.com/grant&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;align=left;" edge="1" source="5jAdGCk7PEBWjeVyFy0n-39" parent="1">
           <mxGeometry x="0.8222" relative="1" as="geometry">
             <mxPoint x="560" y="1336" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5jAdGCk7PEBWjeVyFy0n-43" value="Cookies SSOGTC=GTC-123456&lt;br&gt;GET&amp;nbsp;&lt;span&gt;http://sso.example.com/sso/&lt;/span&gt;&lt;span&gt;authorize?appKey=ak2&lt;/span&gt;&lt;br&gt;&lt;div&gt;&amp;amp;redirect_uri=http://app2.example.com/grant&amp;amp;state=7890&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;align=left;" edge="1" target="5jAdGCk7PEBWjeVyFy0n-42" parent="1">
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-43" value="Cookies SSOGTC=GTC-123456&lt;br&gt;GET&amp;nbsp;&lt;span&gt;http://sso.example.com/sso/&lt;/span&gt;&lt;span&gt;authorize?appKey=ak2&lt;/span&gt;&amp;amp;state=7890&lt;br&gt;&lt;div&gt;&amp;amp;redirect_uri=http://app2.example.com/grant&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;align=left;" edge="1" target="5jAdGCk7PEBWjeVyFy0n-42" parent="1">
           <mxGeometry x="-0.5294" relative="1" as="geometry">
             <mxPoint x="562" y="1420" as="sourcePoint" />
             <mxPoint as="offset" />
@@ -206,13 +206,13 @@
         <mxCell id="5jAdGCk7PEBWjeVyFy0n-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="900" y="1590" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5jAdGCk7PEBWjeVyFy0n-49" value="GET http://sso.example.com/sso/check_ticket?appKey=ak2&amp;amp;ticket=ST-0987&amp;amp;signature=hsalda" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;align=left;" edge="1" parent="1" target="5jAdGCk7PEBWjeVyFy0n-48" source="5jAdGCk7PEBWjeVyFy0n-4">
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-49" value="GET http://sso.example.com/sso/getUserInfo?appKey=ak2&amp;amp;ticket=ST-0987&amp;amp;signature=hsalda" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;align=left;" edge="1" parent="1" target="5jAdGCk7PEBWjeVyFy0n-48" source="5jAdGCk7PEBWjeVyFy0n-4">
           <mxGeometry x="0.6289" relative="1" as="geometry">
             <mxPoint x="1179.5" y="1590" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5jAdGCk7PEBWjeVyFy0n-50" value="return true" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;align=left;" edge="1" parent="1" source="5jAdGCk7PEBWjeVyFy0n-48" target="5jAdGCk7PEBWjeVyFy0n-4">
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-50" value="return userInfo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;align=left;" edge="1" parent="1" source="5jAdGCk7PEBWjeVyFy0n-48" target="5jAdGCk7PEBWjeVyFy0n-4">
           <mxGeometry x="-0.6268" y="-1" relative="1" as="geometry">
             <mxPoint x="1178" y="1648" as="targetPoint" />
             <mxPoint as="offset" />
