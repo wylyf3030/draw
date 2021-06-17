@@ -1,1 +1,236 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T08:22:10.671Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" version="14.4.8" etag="pN3NlpCKXULSfRaPv90v" type="github"><diagram id="c4w317zECzJuG4s0Is7F">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-17T05:50:26.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="IHA3EtcYRe9iFFl7IXQ4" version="14.7.8" type="github">
+  <diagram id="c4w317zECzJuG4s0Is7F" name="Page-1">
+    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-1" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="150" width="100" height="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="5jAdGCk7PEBWjeVyFy0n-1">
+          <mxGeometry x="50" y="130" width="10" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="5jAdGCk7PEBWjeVyFy0n-1">
+          <mxGeometry x="60" y="270" width="10" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="5jAdGCk7PEBWjeVyFy0n-1">
+          <mxGeometry x="50" y="1070" width="10" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-37" value="访问App2" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="5jAdGCk7PEBWjeVyFy0n-36" parent="5jAdGCk7PEBWjeVyFy0n-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-140" y="1070" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-38" value="返回APP2" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="5jAdGCk7PEBWjeVyFy0n-36" parent="5jAdGCk7PEBWjeVyFy0n-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-150" y="1583" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-2" value="认证服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="150" width="100" height="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="5jAdGCk7PEBWjeVyFy0n-2">
+          <mxGeometry x="50" y="480" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="5jAdGCk7PEBWjeVyFy0n-2">
+          <mxGeometry x="50" y="670" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="5jAdGCk7PEBWjeVyFy0n-2">
+          <mxGeometry x="50" y="1270" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-3" value="App1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="150" width="100" height="1730" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="5jAdGCk7PEBWjeVyFy0n-3">
+          <mxGeometry x="50" y="630" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="5jAdGCk7PEBWjeVyFy0n-3">
+          <mxGeometry x="50" y="825" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="5jAdGCk7PEBWjeVyFy0n-3">
+          <mxGeometry x="50" y="1400" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-4" value="App2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="150" width="100" height="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="5jAdGCk7PEBWjeVyFy0n-4">
+          <mxGeometry x="50" y="1110" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-6" value="第一次访问APP1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="350" y="230" width="1160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5jAdGCk7PEBWjeVyFy0n-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-7" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-9" value="1.1 访问App1" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="5jAdGCk7PEBWjeVyFy0n-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="370" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="310" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-11" value="get&amp;nbsp; http://app1.example.com" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;align=left;" edge="1" target="5jAdGCk7PEBWjeVyFy0n-10" parent="1">
+          <mxGeometry x="-0.7419" relative="1" as="geometry">
+            <mxPoint x="560" y="310" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-12" value="302 location http://sso.example.com/sso/authorize?appKey=ak&lt;br&gt;&amp;amp;redirect_uri=http://app1.example.com/grant&amp;amp;state=1234" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;entryX=1;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" source="5jAdGCk7PEBWjeVyFy0n-10" parent="1" target="5jAdGCk7PEBWjeVyFy0n-8">
+          <mxGeometry x="0.7419" relative="1" as="geometry">
+            <mxPoint x="1026" y="386" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="900" y="440" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-15" value="get http://sso.example.com/sso/authorize?appKey=APP_KEY&lt;br&gt;&amp;amp;redirect_uri=http://app1.example.com/grant&amp;amp;state=1234" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;align=left;" edge="1" target="5jAdGCk7PEBWjeVyFy0n-14" parent="1">
+          <mxGeometry x="-0.5758" relative="1" as="geometry">
+            <mxPoint x="570" y="440" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-16" value="302 location&amp;nbsp; http://sso.example.com/sso/login" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;entryX=0.9;entryY=0.28;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" source="5jAdGCk7PEBWjeVyFy0n-14" parent="1" target="5jAdGCk7PEBWjeVyFy0n-13">
+          <mxGeometry x="0.571" relative="1" as="geometry">
+            <mxPoint x="770" y="516" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="360" y="560" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-19" value="用户登陆" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;" edge="1" target="5jAdGCk7PEBWjeVyFy0n-18" parent="1" source="5jAdGCk7PEBWjeVyFy0n-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="560" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-20" value="提交登陆" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;" edge="1" source="5jAdGCk7PEBWjeVyFy0n-18" parent="1" target="5jAdGCk7PEBWjeVyFy0n-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="614" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-22" value="post&amp;nbsp; http://sso.example.com/sso/login" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;align=left;" edge="1" target="5jAdGCk7PEBWjeVyFy0n-21" parent="1">
+          <mxGeometry x="-0.5902" relative="1" as="geometry">
+            <mxPoint x="573" y="630" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-23" value="set-Cookies SSOGTC=GTC-123456&lt;br&gt;302 http://app1.example.com/grant?state=1234&amp;amp;ticket=ST-123456" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;align=left;" edge="1" source="5jAdGCk7PEBWjeVyFy0n-21" parent="1">
+          <mxGeometry x="0.5806" relative="1" as="geometry">
+            <mxPoint x="571" y="708" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-25" value="GET http://app1.example.com/grant/state=1234&amp;amp;ticket=ST-123456" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;align=left;" edge="1" target="5jAdGCk7PEBWjeVyFy0n-24" parent="1">
+          <mxGeometry x="-0.7419" y="3" relative="1" as="geometry">
+            <mxPoint x="560" y="780" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="980" y="590" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-29" value="GET http://sso.example.com/sso/check_ticket?appKey=ak&amp;amp;ticket=ST-123456&amp;amp;signature=hsalda" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;align=left;" edge="1" target="5jAdGCk7PEBWjeVyFy0n-28" parent="1" source="5jAdGCk7PEBWjeVyFy0n-3">
+          <mxGeometry x="0.6289" relative="1" as="geometry">
+            <mxPoint x="970" y="820" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-30" value="return true" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;entryX=-0.2;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" source="5jAdGCk7PEBWjeVyFy0n-28" parent="1" target="5jAdGCk7PEBWjeVyFy0n-24">
+          <mxGeometry x="-0.6268" y="-1" relative="1" as="geometry">
+            <mxPoint x="970" y="877" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-26" value="SET-Cookies&lt;br&gt;&lt;div&gt;302 http://app1.example.com&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;align=left;" edge="1" source="5jAdGCk7PEBWjeVyFy0n-24" parent="1">
+          <mxGeometry x="0.7504" relative="1" as="geometry">
+            <mxPoint x="560" y="913" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-32" value="GET http://app1.example.com" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=0.9;exitY=0.829;exitDx=0;exitDy=0;exitPerimeter=0;align=left;" edge="1" target="5jAdGCk7PEBWjeVyFy0n-31" parent="1" source="5jAdGCk7PEBWjeVyFy0n-8">
+          <mxGeometry x="-0.7391" y="1" relative="1" as="geometry">
+            <mxPoint x="630" y="975" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-33" value="200" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;entryX=1.4;entryY=0.915;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" source="5jAdGCk7PEBWjeVyFy0n-31" parent="1" target="5jAdGCk7PEBWjeVyFy0n-8">
+          <mxGeometry x="0.7533" relative="1" as="geometry">
+            <mxPoint x="610" y="1050" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-34" value="返回APP1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="1080" as="sourcePoint" />
+            <mxPoint x="360" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-35" value="第一次访问APP2" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1148" width="1190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-40" value="GET http://app2.example.com" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;align=left;" edge="1" target="5jAdGCk7PEBWjeVyFy0n-39" parent="1">
+          <mxGeometry x="-0.8222" relative="1" as="geometry">
+            <mxPoint x="560" y="1260" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-41" value="302 location http://sso.example.com/sso/&lt;span&gt;authorize?appKey=ak2&lt;/span&gt;&lt;br&gt;&lt;div&gt;&amp;amp;redirect_uri=http://app2.example.com/grant&amp;amp;state=7890&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;align=left;" edge="1" source="5jAdGCk7PEBWjeVyFy0n-39" parent="1">
+          <mxGeometry x="0.8222" relative="1" as="geometry">
+            <mxPoint x="560" y="1336" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-43" value="Cookies SSOGTC=GTC-123456&lt;br&gt;GET&amp;nbsp;&lt;span&gt;http://sso.example.com/sso/&lt;/span&gt;&lt;span&gt;authorize?appKey=ak2&lt;/span&gt;&lt;br&gt;&lt;div&gt;&amp;amp;redirect_uri=http://app2.example.com/grant&amp;amp;state=7890&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;align=left;" edge="1" target="5jAdGCk7PEBWjeVyFy0n-42" parent="1">
+          <mxGeometry x="-0.5294" relative="1" as="geometry">
+            <mxPoint x="562" y="1420" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-44" value="302 location http://app2.example.com/grant?state=7890&amp;amp;ticket=TC-0987" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;align=left;" edge="1" source="5jAdGCk7PEBWjeVyFy0n-42" parent="1">
+          <mxGeometry x="0.543" relative="1" as="geometry">
+            <mxPoint x="560" y="1496" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-46" value="GET&amp;nbsp;&lt;span&gt;location http://app2.example.com/grant?state=7890&amp;amp;ticket=TC-0987&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;align=left;" edge="1" target="5jAdGCk7PEBWjeVyFy0n-45" parent="1" source="5jAdGCk7PEBWjeVyFy0n-36">
+          <mxGeometry x="-0.7419" relative="1" as="geometry">
+            <mxPoint x="1110" y="1550" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1590" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-49" value="GET http://sso.example.com/sso/check_ticket?appKey=ak2&amp;amp;ticket=ST-0987&amp;amp;signature=hsalda" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;align=left;" edge="1" parent="1" target="5jAdGCk7PEBWjeVyFy0n-48">
+          <mxGeometry x="0.6289" relative="1" as="geometry">
+            <mxPoint x="1179.5" y="1590" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-50" value="return true" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;entryX=-0.2;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="5jAdGCk7PEBWjeVyFy0n-48">
+          <mxGeometry x="-0.6268" y="-1" relative="1" as="geometry">
+            <mxPoint x="1178" y="1648" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1050" y="1648" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-47" value="&lt;div&gt;SET-Cookies&lt;/div&gt;&lt;div&gt;302 http://app2.example.com&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;align=left;" edge="1" source="5jAdGCk7PEBWjeVyFy0n-45" parent="1" target="5jAdGCk7PEBWjeVyFy0n-36">
+          <mxGeometry x="0.7419" relative="1" as="geometry">
+            <mxPoint x="680" y="1720" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
