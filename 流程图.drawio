@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T05:50:26.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="IHA3EtcYRe9iFFl7IXQ4" version="14.7.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T08:12:20.639Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="wbt4bJJrOs6DaH611P9O" version="14.7.8" type="github">
   <diagram id="c4w317zECzJuG4s0Is7F" name="Page-1">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -46,9 +46,6 @@
         </mxCell>
         <mxCell id="5jAdGCk7PEBWjeVyFy0n-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="5jAdGCk7PEBWjeVyFy0n-3">
           <mxGeometry x="50" y="825" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="5jAdGCk7PEBWjeVyFy0n-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="5jAdGCk7PEBWjeVyFy0n-3">
-          <mxGeometry x="50" y="1400" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="5jAdGCk7PEBWjeVyFy0n-4" value="App2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1410" y="150" width="100" height="1720" as="geometry" />
@@ -209,13 +206,13 @@
         <mxCell id="5jAdGCk7PEBWjeVyFy0n-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="900" y="1590" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5jAdGCk7PEBWjeVyFy0n-49" value="GET http://sso.example.com/sso/check_ticket?appKey=ak2&amp;amp;ticket=ST-0987&amp;amp;signature=hsalda" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;align=left;" edge="1" parent="1" target="5jAdGCk7PEBWjeVyFy0n-48">
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-49" value="GET http://sso.example.com/sso/check_ticket?appKey=ak2&amp;amp;ticket=ST-0987&amp;amp;signature=hsalda" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;align=left;" edge="1" parent="1" target="5jAdGCk7PEBWjeVyFy0n-48" source="5jAdGCk7PEBWjeVyFy0n-4">
           <mxGeometry x="0.6289" relative="1" as="geometry">
             <mxPoint x="1179.5" y="1590" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5jAdGCk7PEBWjeVyFy0n-50" value="return true" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;entryX=-0.2;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="5jAdGCk7PEBWjeVyFy0n-48">
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-50" value="return true" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;align=left;" edge="1" parent="1" source="5jAdGCk7PEBWjeVyFy0n-48" target="5jAdGCk7PEBWjeVyFy0n-4">
           <mxGeometry x="-0.6268" y="-1" relative="1" as="geometry">
             <mxPoint x="1178" y="1648" as="targetPoint" />
             <mxPoint as="offset" />
@@ -229,6 +226,9 @@
             <mxPoint x="680" y="1720" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5jAdGCk7PEBWjeVyFy0n-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="1560" width="10" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
