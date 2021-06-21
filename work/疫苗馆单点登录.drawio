@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-21T08:39:09.155Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="wlkDICBgjqHGNCdHphzz" version="14.7.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-21T12:47:52.126Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="qX71XWvNvHnZj-z0kvNh" version="14.7.8" type="github">
   <diagram id="zZ86Mv5E7k6k_k5HMbXi" name="Page-1">
     <mxGraphModel dx="1426" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -186,6 +186,151 @@
         <mxCell id="XgoeYixQGSKKeglVcJsI-48" value="Http Response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="XgoeYixQGSKKeglVcJsI-47">
           <mxGeometry x="-0.36" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-49" value="WEB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=15;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="485" y="2080" width="100" height="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=15;strokeColor=#000000;" vertex="1" parent="XgoeYixQGSKKeglVcJsI-49">
+          <mxGeometry x="50" y="100" width="10" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-50" value="SSO Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=15;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="931.66" y="2080" width="100" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-62" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=15;strokeColor=#000000;align=left;" vertex="1" parent="XgoeYixQGSKKeglVcJsI-50">
+          <mxGeometry x="50.5" y="288" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=15;strokeColor=#000000;align=left;" vertex="1" parent="XgoeYixQGSKKeglVcJsI-50">
+          <mxGeometry x="55.5" y="318" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-66" value="No Login" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=15;strokeWidth=1;" edge="1" target="XgoeYixQGSKKeglVcJsI-65" parent="XgoeYixQGSKKeglVcJsI-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60.5" y="298" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90.5" y="298" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-70" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=15;strokeColor=#000000;align=left;" vertex="1" parent="XgoeYixQGSKKeglVcJsI-50">
+          <mxGeometry x="50.50000000000003" y="500" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-51" value="APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=15;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="2080" width="100" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-56" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=15;strokeColor=#000000;" vertex="1" parent="XgoeYixQGSKKeglVcJsI-51">
+          <mxGeometry x="50" y="120" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-58" value="&lt;span style=&quot;font-size: 12px&quot;&gt;302&amp;nbsp; location &lt;br&gt;/&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;sso/authorize?appKey=ak&amp;amp;state=1234&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;amp;redirect_uri=http://app1.example.com/grant&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;fontSize=15;strokeWidth=1;align=left;" edge="1" parent="XgoeYixQGSKKeglVcJsI-51">
+          <mxGeometry x="0.8464" relative="1" as="geometry">
+            <mxPoint x="-643" y="225" as="targetPoint" />
+            <mxPoint x="47" y="224.5" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=15;strokeColor=#000000;align=left;" vertex="1" parent="XgoeYixQGSKKeglVcJsI-51">
+          <mxGeometry x="55" y="165" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-61" value="No Login" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=15;strokeWidth=1;" edge="1" target="XgoeYixQGSKKeglVcJsI-60" parent="XgoeYixQGSKKeglVcJsI-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="145" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-76" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=15;strokeColor=#000000;align=left;" vertex="1" parent="XgoeYixQGSKKeglVcJsI-51">
+          <mxGeometry x="60" y="690" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=1;startArrow=none;" edge="1" parent="1" source="XgoeYixQGSKKeglVcJsI-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="3230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-52" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=15;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="2160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-54" value="&lt;font style=&quot;font-size: 12px&quot;&gt;GET http://app.example.com&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=15;strokeWidth=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;align=left;" edge="1" target="XgoeYixQGSKKeglVcJsI-53" parent="1" source="XgoeYixQGSKKeglVcJsI-52">
+          <mxGeometry x="-0.6279" relative="1" as="geometry">
+            <mxPoint x="470" y="2180" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-57" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=15;strokeWidth=1;" edge="1" parent="1" source="XgoeYixQGSKKeglVcJsI-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="2200" as="sourcePoint" />
+            <mxPoint x="1240" y="2200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-59" value="&lt;font style=&quot;font-size: 11px&quot;&gt;GET Http://app.example.com&lt;/font&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="XgoeYixQGSKKeglVcJsI-57">
+          <mxGeometry x="-0.1014" y="3" relative="1" as="geometry">
+            <mxPoint x="-257" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-64" value="&lt;font style=&quot;font-size: 12px&quot;&gt;302 location&lt;br style=&quot;font-size: 11px&quot;&gt;/login?redirect_url=http://xx/&lt;span style=&quot;font-size: 11px&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;sso/authorize?appKey=ak&amp;amp;state=1234&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;amp;redirect_uri=http://app1.example.com/gran&lt;/span&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;fontSize=15;strokeWidth=1;align=left;" edge="1" source="XgoeYixQGSKKeglVcJsI-62" parent="1" target="XgoeYixQGSKKeglVcJsI-49">
+          <mxGeometry x="0.7444" relative="1" as="geometry">
+            <mxPoint x="544" y="2442" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-63" value="&lt;font style=&quot;font-size: 12px&quot;&gt;GET&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;sso/authorize?appKey=ak&amp;amp;state=1234&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;amp;redirect_uri=http://app1.example.com/gran&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=15;strokeWidth=1;align=left;exitX=0.9;exitY=0.225;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="XgoeYixQGSKKeglVcJsI-62" parent="1" source="XgoeYixQGSKKeglVcJsI-53">
+          <mxGeometry x="-0.7484" relative="1" as="geometry">
+            <mxPoint x="624.16" y="2368" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-71" value="&lt;span style=&quot;font-size: 12px&quot;&gt;POST login?redirect_url=http://xx/&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;sso/authorize?appKey=ak&lt;br&gt;&amp;amp;state=1234&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;amp;redirect_uri=http://app1.example.com/gran&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=15;strokeWidth=1;align=left;exitX=0.9;exitY=0.476;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="XgoeYixQGSKKeglVcJsI-70" parent="1" source="XgoeYixQGSKKeglVcJsI-53">
+          <mxGeometry x="-0.784" y="-1" relative="1" as="geometry">
+            <mxPoint x="550" y="2580" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-72" value="&lt;span style=&quot;font-size: 12px&quot;&gt;SET Cookie GTC=GTC-123456&lt;br&gt;302&amp;nbsp; location&amp;nbsp;&lt;br&gt;/&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;sso/authorize?appKey=ak&amp;amp;state=1234&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;amp;redirect_uri=http://app1.example.com/grant&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;fontSize=15;strokeWidth=1;align=left;" edge="1" source="XgoeYixQGSKKeglVcJsI-70" parent="1" target="XgoeYixQGSKKeglVcJsI-53">
+          <mxGeometry x="0.7471" relative="1" as="geometry">
+            <mxPoint x="910" y="2576" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-74" value="&lt;font style=&quot;font-size: 12px&quot;&gt;GET&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;sso/authorize?appKey=ak&amp;amp;state=1234&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;amp;redirect_uri=http://app1.example.com/gran&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=15;strokeWidth=1;align=left;" edge="1" target="XgoeYixQGSKKeglVcJsI-73" parent="1" source="XgoeYixQGSKKeglVcJsI-53">
+          <mxGeometry x="-0.8417" relative="1" as="geometry">
+            <mxPoint x="550" y="2640" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-75" value="&lt;font style=&quot;font-size: 12px&quot;&gt;SET Cookie&lt;br&gt;302 location&lt;br&gt;&lt;span&gt;http://app1.example.com/grant?state=1234&amp;amp;ticket=TC-123456&lt;/span&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;fontSize=15;strokeWidth=1;entryX=1;entryY=0.756;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" source="XgoeYixQGSKKeglVcJsI-73" parent="1" target="XgoeYixQGSKKeglVcJsI-53">
+          <mxGeometry x="0.8417" relative="1" as="geometry">
+            <mxPoint x="544" y="2713" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-73" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=15;strokeColor=#000000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="2740" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-80" value="User Login" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;fontSize=15;strokeWidth=1;" edge="1" target="XgoeYixQGSKKeglVcJsI-79" parent="1" source="XgoeYixQGSKKeglVcJsI-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="2490" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-81" value="Submit Login Form" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;fontSize=15;strokeWidth=1;" edge="1" source="XgoeYixQGSKKeglVcJsI-79" parent="1" target="XgoeYixQGSKKeglVcJsI-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="2547" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-79" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=15;strokeColor=#000000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="300" y="2490" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=1;endArrow=none;" edge="1" parent="1" source="XgoeYixQGSKKeglVcJsI-52" target="XgoeYixQGSKKeglVcJsI-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="3230" as="targetPoint" />
+            <mxPoint x="305" y="2220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-77" value="Set Login" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=15;strokeWidth=1;" edge="1" target="XgoeYixQGSKKeglVcJsI-76" parent="1" source="XgoeYixQGSKKeglVcJsI-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="2750" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1285" y="2750" />
+              <mxPoint x="1285" y="2770" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
