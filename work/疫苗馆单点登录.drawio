@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2021-06-21T02:36:37.272Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" version="14.7.8" etag="bEA3jkgvnTij8E2XIZHm" type="github"><diagram id="zZ86Mv5E7k6k_k5HMbXi">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-21T07:07:33.934Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="iWlFbABf-_qLRZG1j_X7" version="14.7.8" type="github">
+  <diagram id="zZ86Mv5E7k6k_k5HMbXi" name="Page-1">
+    <mxGraphModel dx="1426" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XgoeYixQGSKKeglVcJsI-1" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="420" width="820" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-2" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;dashed=1;strokeWidth=2;fillColor=none;fontColor=#FF3333;align=left;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="657.5" y="277.5" width="115" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-3" value="会话子域&lt;br&gt;（核心）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="655" y="470" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-4" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;dashed=1;strokeWidth=2;fillColor=none;fontColor=#FF3333;align=left;rotation=-20;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="319.92" y="599.57" width="237.5" height="103.13" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-5" value="票据子域&lt;br&gt;（支撑）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="390" y="560" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-6" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;dashed=1;strokeWidth=2;fillColor=none;fontColor=#FF3333;align=left;rotation=25;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="880.2" y="599.11" width="237.89" height="103.6" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-7" value="权限子域&lt;br&gt;（支撑）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="980" y="590" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-9" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;dashed=1;strokeWidth=2;fillColor=none;fontColor=#FF3333;align=left;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="696.88" y="480.63" width="50" height="373.75" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-10" value="ISV子域&lt;br&gt;（支撑）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="667.5" y="615" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-11" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;dashed=1;strokeWidth=2;fillColor=none;fontColor=#FF3333;align=left;rotation=-60;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="482.88" y="738.64" width="142.19" height="27.11" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-12" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;dashed=1;strokeWidth=2;fillColor=none;fontColor=#FF3333;align=left;rotation=65;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="790" y="743.65" width="141.66" height="33.46" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-13" value="用户子域&lt;br&gt;（通用）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="440" y="720" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-14" value="机构子域&lt;br&gt;（通用）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="667.5" y="750" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-15" value="应用子域&lt;br&gt;（通用）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="885" y="730" width="95" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
