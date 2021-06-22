@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-06-21T12:47:52.126Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="qX71XWvNvHnZj-z0kvNh" version="14.7.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-22T03:15:22.765Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="l9X6t9A3jWL1VnjuXybQ" version="14.7.8" type="github">
   <diagram id="zZ86Mv5E7k6k_k5HMbXi" name="Page-1">
     <mxGraphModel dx="1426" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XgoeYixQGSKKeglVcJsI-135" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#d6b656;align=center;dashed=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="502.54" y="4545" width="154.93" height="410" as="geometry" />
+        </mxCell>
         <mxCell id="XgoeYixQGSKKeglVcJsI-1" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="420" width="820" height="420" as="geometry" />
         </mxCell>
@@ -332,6 +335,125 @@
               <mxPoint x="1285" y="2770" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XgoeYixQGSKKeglVcJsI-124" target="XgoeYixQGSKKeglVcJsI-93">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="3560" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=1;" edge="1" parent="1" source="XgoeYixQGSKKeglVcJsI-93" target="XgoeYixQGSKKeglVcJsI-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=1;" edge="1" parent="1" source="XgoeYixQGSKKeglVcJsI-93" target="XgoeYixQGSKKeglVcJsI-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-93" value="&amp;nbsp; &amp;nbsp; 验证AK" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#000000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="545" y="3520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=1;" edge="1" parent="1" source="XgoeYixQGSKKeglVcJsI-95" target="XgoeYixQGSKKeglVcJsI-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=1;" edge="1" parent="1" source="XgoeYixQGSKKeglVcJsI-95" target="XgoeYixQGSKKeglVcJsI-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-95" value="&amp;nbsp; 验证会话" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#000000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="545" y="3680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=1;" edge="1" parent="1" source="XgoeYixQGSKKeglVcJsI-99" target="XgoeYixQGSKKeglVcJsI-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-99" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; 生成ticket" style="whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="525" y="3850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=1;" edge="1" parent="1" source="XgoeYixQGSKKeglVcJsI-101" target="XgoeYixQGSKKeglVcJsI-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-101" value="重定向appURL" style="whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="525" y="3990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-103" value="&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp;结束" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="525" y="4130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=1;" edge="1" parent="1" source="XgoeYixQGSKKeglVcJsI-105" target="XgoeYixQGSKKeglVcJsI-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-105" value="生成重定向URL" style="whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="685" y="3690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=1;" edge="1" parent="1" source="XgoeYixQGSKKeglVcJsI-107" target="XgoeYixQGSKKeglVcJsI-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-107" value="&amp;nbsp; 重定向登录页" style="whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="885" y="3690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-109" value="&lt;font style=&quot;font-size: 12px&quot;&gt;如果该AK已经颁发ticket，则使用已颁发的的ticket，否则新生成ticket&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=15;strokeColor=#6c8ebf;align=left;position2=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="280" y="3760" width="219" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=1;" edge="1" parent="1" source="XgoeYixQGSKKeglVcJsI-110" target="XgoeYixQGSKKeglVcJsI-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-110" value="重定向未知ISV页" style="whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="685" y="3530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-112" value="&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&amp;nbsp; 结束" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="885" y="3530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=1;entryX=0.392;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XgoeYixQGSKKeglVcJsI-116" target="XgoeYixQGSKKeglVcJsI-124">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="3520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1130" y="3880" />
+              <mxPoint x="1130" y="3500" />
+              <mxPoint x="387" y="3500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-123" value="重定向sso/authorize" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="XgoeYixQGSKKeglVcJsI-122">
+          <mxGeometry x="-0.3927" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-116" value="&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;登录成功&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;设置会话" style="whiteSpace=wrap;html=1;fontSize=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="885" y="3850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-120" value="&lt;font style=&quot;font-size: 12px&quot;&gt;此处设置重定向url=sso/authorize&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=15;strokeColor=#6c8ebf;align=left;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="710" y="3600" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-124" value="&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&amp;nbsp; 开始" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#82b366;align=left;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="340" y="3525" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-125" value="认证服务获取令牌流程图（sso/authorize）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="585" y="3430" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=1;" edge="1" parent="1" source="XgoeYixQGSKKeglVcJsI-126" target="XgoeYixQGSKKeglVcJsI-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-126" value="&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&amp;nbsp; 开始" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#82b366;align=left;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="520" y="4410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=1;" edge="1" parent="1" source="XgoeYixQGSKKeglVcJsI-127" target="XgoeYixQGSKKeglVcJsI-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-127" value="失效会话" style="whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="1">
+          <mxGeometry x="520" y="4580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=1;" edge="1" parent="1" source="XgoeYixQGSKKeglVcJsI-129" target="XgoeYixQGSKKeglVcJsI-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-129" value="获取会话绑定的AK+ticket" style="whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="1">
+          <mxGeometry x="520" y="4720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=1;" edge="1" parent="1" source="XgoeYixQGSKKeglVcJsI-131" target="XgoeYixQGSKKeglVcJsI-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-131" value="调用接口消费ticket" style="whiteSpace=wrap;html=1;fontSize=15;align=center;" vertex="1" parent="1">
+          <mxGeometry x="520" y="4860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-133" value="结束" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="5000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XgoeYixQGSKKeglVcJsI-136" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.会话失效，但仍能获取到其绑定的信息&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.获取会话需要能统一管理，避免服务重启感知不到会话过期时间&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3.确认会话失效后，且销毁所有票据后，将不再管理该会话&lt;/span&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;dashed=1;fontSize=15;strokeColor=#6c8ebf;align=center;position2=0.33;fillColor=#dae8fc;size=30;position=0.44;base=41;" vertex="1" parent="1">
+          <mxGeometry x="680" y="4420" width="451.96" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
