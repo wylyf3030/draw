@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T03:15:22.765Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="l9X6t9A3jWL1VnjuXybQ" version="14.7.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-23T08:41:56.227Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="xdDoV8AqyuT7-f08LcBH" version="14.7.8" type="github">
   <diagram id="zZ86Mv5E7k6k_k5HMbXi" name="Page-1">
     <mxGraphModel dx="1426" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -452,7 +452,7 @@
         <mxCell id="XgoeYixQGSKKeglVcJsI-133" value="结束" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="520" y="5000" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XgoeYixQGSKKeglVcJsI-136" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.会话失效，但仍能获取到其绑定的信息&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.获取会话需要能统一管理，避免服务重启感知不到会话过期时间&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3.确认会话失效后，且销毁所有票据后，将不再管理该会话&lt;/span&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;dashed=1;fontSize=15;strokeColor=#6c8ebf;align=center;position2=0.33;fillColor=#dae8fc;size=30;position=0.44;base=41;" vertex="1" parent="1">
+        <mxCell id="XgoeYixQGSKKeglVcJsI-136" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.会话失效未完成销毁票据之前，但仍能获取到其绑定的信息&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.获取会话需要能统一管理，避免服务重启感知不到会话过期时间&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3.确认会话失效后，且销毁所有票据后，将不再管理该会话&lt;/span&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;dashed=1;fontSize=15;strokeColor=#6c8ebf;align=center;position2=0.33;fillColor=#dae8fc;size=30;position=0.44;base=41;" vertex="1" parent="1">
           <mxGeometry x="680" y="4420" width="451.96" height="210" as="geometry" />
         </mxCell>
       </root>
