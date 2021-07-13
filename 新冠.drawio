@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T02:45:04.700Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="JV-HfgLn679rrOjITVqN" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-13T04:03:18.633Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" etag="4al6p2oAQ0LWIJnE9Hc7" version="14.8.2" type="github">
   <diagram id="w0HFk6Fzwvmut8jecLAu" name="Page-1">
     <mxGraphModel dx="1426" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -238,13 +238,13 @@
         <mxCell id="Qy7DKaajC4JkQzH4-8r4-14" value="inoculation_record_inspecttion_result" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="410" y="740" width="330" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="Qy7DKaajC4JkQzH4-8r4-15" value="id：主键ID&#xa;uuid:  接种记录ID，唯一&#xa;vaccination_card_number：个案编号&#xa;org_code：管理单位编码&#xa;patient_name：接种者姓名&#xa;vac_unit_code：接种单位编码&#xa;vaccination_date：接种时间&#xa;vac_name_code：疫苗国标码&#xa;last_inspection_time：最后巡检时间&#xa;hit_rules：命中规则集合&#xa;system_type：1 沈苏 2 鑫义&#xa;created_at：创建时间&#xa;modified_at：记录更新时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Qy7DKaajC4JkQzH4-8r4-14">
+        <mxCell id="Qy7DKaajC4JkQzH4-8r4-15" value="id：主键ID&#xa;uuid:  接种记录ID，唯一&#xa;vaccination_card_number：个案编号&#xa;org_code：管理单位编码&#xa;patient_name：接种者姓名&#xa;vac_unit_code：接种单位编码&#xa;vaccination_date：接种时间&#xa;vac_name_code：疫苗国标码&#xa;hit_rules：命中规则集合&#xa;system_type：1 沈苏 2 鑫义&#xa;created_at：创建时间&#xa;modified_at：记录更新时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Qy7DKaajC4JkQzH4-8r4-14">
           <mxGeometry y="26" width="330" height="214" as="geometry" />
         </mxCell>
         <mxCell id="Qy7DKaajC4JkQzH4-8r4-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Qy7DKaajC4JkQzH4-8r4-14">
           <mxGeometry y="240" width="330" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Qy7DKaajC4JkQzH4-8r4-17" value="uq_uuid：接种记录唯一索引&#xa;idx_vac_unit_code：接种单位索引&#xa;idx_vac_card_num：接种个案编码索引&#xa;idx_patient_name：接种人姓名索引&#xa;idx_vaccination_date：接种时间索引&#xa;idx_inspection_time：巡检时间索引" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Qy7DKaajC4JkQzH4-8r4-14">
+        <mxCell id="Qy7DKaajC4JkQzH4-8r4-17" value="uq_uuid：接种记录唯一索引&#xa;idx_vac_unit_code：接种单位索引&#xa;idx_vac_card_num：接种个案编码索引&#xa;idx_patient_name：接种人姓名索引&#xa;idx_vaccination_date：接种时间索引&#xa;idx_created_at：创建时间索引&#xa;idx_modified_at：更新时间索引" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Qy7DKaajC4JkQzH4-8r4-14">
           <mxGeometry y="248" width="330" height="122" as="geometry" />
         </mxCell>
         <mxCell id="Qy7DKaajC4JkQzH4-8r4-18" value="inspection_retry_record" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
@@ -336,6 +336,18 @@
         </mxCell>
         <mxCell id="Qy7DKaajC4JkQzH4-8r4-38" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=8.5;dx=42;arrowHead=55;rotation=-15;" vertex="1" parent="1">
           <mxGeometry x="946.16" y="116.82" width="140" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="Qy7DKaajC4JkQzH4-8r4-39" value="inspection_statistic" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="950" width="330" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Qy7DKaajC4JkQzH4-8r4-40" value="id：主键ID&#xa;type：统计维度 0 接种单位 1 管理单位&#xa;code：统计维度的值&#xa;month：yyyyMM&#xa;count：统计值&#xa;created_at：创建时间&#xa;modified_at：记录更新时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Qy7DKaajC4JkQzH4-8r4-39">
+          <mxGeometry y="26" width="330" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="Qy7DKaajC4JkQzH4-8r4-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Qy7DKaajC4JkQzH4-8r4-39">
+          <mxGeometry y="130" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Qy7DKaajC4JkQzH4-8r4-42" value="+ idx_code" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Qy7DKaajC4JkQzH4-8r4-39">
+          <mxGeometry y="138" width="330" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
